@@ -98,6 +98,6 @@ formulario.addEventListener("submit", (evento) => {
 
   resultado.innerHTML = `
   <li>${propietario1.datosPropietario()}</li>
-  <li>${tipo.value} el nombre de la mascota ${nombreMascota.value} y la enfermedad es ${enfermedad.value}</li>
+  <li>El tipo de animal es ${tipo.value}, el nombre de la mascota ${nombreMascota.value} y la enfermedad es ${enfermedad.value}</li>
   `
 });
