@@ -96,8 +96,9 @@ formulario.addEventListener("submit", (evento) => {
   animal1.nombreMascota = nombreMascota.value;
   animal1.enfermedad = enfermedad.value;
 
-  resultado.innerHTML = `
+  resultado.innerHTML = `<ul>
   <li>${propietario1.datosPropietario()}</li>
   <li>El tipo de animal es ${tipo.value}, el nombre de la mascota ${nombreMascota.value} y la enfermedad es ${enfermedad.value}</li>
+  </ul>
   `
 });
